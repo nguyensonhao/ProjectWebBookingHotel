@@ -19,7 +19,7 @@ public class ConnectionLib {
     public static Connection getConnection() throws SQLException{
         try {
             DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
         } catch (SQLException e) {
             e.getMessage();
         }

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package DAO;
 
 import Model.Image;
@@ -20,7 +16,7 @@ import java.sql.Date;
 
 /**
  *
- * @author trant
+ * @author admin
  */
 public class roomDAO {
     //declare variables

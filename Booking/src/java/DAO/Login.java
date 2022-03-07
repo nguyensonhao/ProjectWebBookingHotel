@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package DAO;
 
 import java.sql.Connection;
@@ -13,14 +8,14 @@ import java.sql.SQLException;
 
 /**
  *
- * @author DINH
+ * @author admin
  */
 public class Login {
      public static String Login(String name, String pass) {
         String status = null;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
 
             PreparedStatement ps = con.prepareStatement(
                     "select * from customeraccount where username=? and password=?");
@@ -40,7 +35,7 @@ public class Login {
         boolean status = false;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
 
             PreparedStatement ps = con.prepareStatement(
                    "INSERT INTO `customeraccount` (`username`, `password`, `customerID`) VALUES ('"+name+"', '"+pass+"', '"+getID()+1+"');");
@@ -56,7 +51,7 @@ public class Login {
          int Id = 0;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
 
             PreparedStatement ps = con.prepareStatement(
                    "SELECT MAX(customerID) FROM customeraccount");
@@ -72,7 +67,7 @@ public class Login {
         boolean status = false;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
 
             PreparedStatement ps = con.prepareStatement(
                     "DELETE FROM `admin` WHERE `admin`.`adminId` = '"+ID+"'");
@@ -88,7 +83,7 @@ public class Login {
         boolean status = false;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
 
             PreparedStatement ps = con.prepareStatement(
                     "select * from admin where username=? and password=?");
