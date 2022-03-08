@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author admin
+ * @author DINH
  */
 @WebServlet(name = "LoginAdminServlet", urlPatterns = {"/LoginAdminServlet"})
 public class LoginAdminServlet extends HttpServlet {

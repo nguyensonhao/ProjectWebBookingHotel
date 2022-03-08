@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package DAO;
 
 import Model.Customer;
@@ -14,7 +18,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author admin
+ * @author trant
  */
 public class CustomerDAO {
     //declare variables
@@ -64,6 +68,7 @@ public class CustomerDAO {
         }
         return listCustomer;
     }
+   
     public String getName(int customerId) {
         listCustomer = new ArrayList<>();//declare variables
         query = "SELECT `fullName` FROM `customer` where customerId = '"+customerId+"'";//query sql select data

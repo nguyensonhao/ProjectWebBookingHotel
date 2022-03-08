@@ -1,7 +1,7 @@
 <%-- 
     Document   : checkOutRoom
     Created on : Mar 5, 2022, 1:53:30 AM
-    Author     : trant
+    Author     : admin
 --%>
 
 <%@page import="DAO.roomDAO"%>
@@ -10,6 +10,6 @@
     int ID = Integer.valueOf(request.getParameter("roomID"));
     System.out.println(ID);
     roomDAO room = new roomDAO();
-    int check = room.updateStatusRoom(ID, 0);
+    int check = room.updateStatusRoom(ID, 2);
     response.sendRedirect("ordermanagement.jsp");
 %>

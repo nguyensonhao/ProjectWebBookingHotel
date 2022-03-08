@@ -3,8 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/LaptopAZ.vn/OneDrive/Desktop/Booking/src/java/DAO/AdminDAO.java</file>
-            <file>file:/C:/Users/LaptopAZ.vn/OneDrive/Desktop/Booking/src/java/DAO/Login.java</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/checkOutRoom.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/ordermanage.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/roommanage.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/addnew.html</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/src/java/DAO/OrderDAO.java</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/ordermanagement.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/checkinRoom.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/unActiveRoom.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/activeRoom.jsp</file>
+            <file>file:/D:/Code%20thue/tuankiet500k/Booking/src/java/DAO/roomDAO.java</file>
         </group>
     </open-files>
 </project-private>

@@ -49,7 +49,7 @@ public class AdminDAO {
         boolean status = false;
         try {
             DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "24120");
 
             PreparedStatement ps = con.prepareStatement(
                     "select * from admin where username=? and password=?");

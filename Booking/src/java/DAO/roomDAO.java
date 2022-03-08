@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package DAO;
 
 import Model.Image;
@@ -16,7 +20,7 @@ import java.sql.Date;
 
 /**
  *
- * @author admin
+ * @author trant
  */
 public class roomDAO {
     //declare variables
@@ -138,6 +142,21 @@ public class roomDAO {
             return 0;
         } catch (Exception e) {
             System.out.println("Can't update product.");//display warning message
+            return 0;
+        }
+    }
+      public int updateClockRoom(int idroom, int status){
+        query = "UPDATE `room` SET `status` = "+status+" WHERE `room`.`roomId` = "+idroom;//query insert
+        try {
+            pst = con.prepareStatement(query);
+            pst.executeUpdate();
+            System.out.println(query);
+            return 1;
+        } catch (SQLException ex) {
+            System.out.println("Can't clock room.");//display warning message
+            return 0;
+        } catch (Exception e) {
+            System.out.println("Can't clock room.");//display warning message
             return 0;
         }
     }
