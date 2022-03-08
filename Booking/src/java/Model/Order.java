@@ -9,7 +9,7 @@ import java.sql.Date;
 
 /**
  *
- * @author trant
+ * @author admin
  */
 public class Order {
     int oerderId;

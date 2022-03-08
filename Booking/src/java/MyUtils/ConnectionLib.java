@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author DINH
+ * @author admin
  */
 public class ConnectionLib {
     
@@ -19,7 +19,7 @@ public class ConnectionLib {
     public static Connection getConnection() throws SQLException{
         try {
             DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "24120");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "admin123");
         } catch (SQLException e) {
             e.getMessage();
         }

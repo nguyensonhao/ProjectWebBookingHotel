@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author trant
+ * @author admin
  */
 @WebServlet(name = "addRoomServlet", urlPatterns = {"/addRoomServlet"})
 public class addRoomServlet extends HttpServlet {

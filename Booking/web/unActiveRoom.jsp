@@ -1,7 +1,7 @@
 <%-- 
     Document   : unActiveRoom
     Created on : Mar 8, 2022, 12:55:39 AM
-    Author     : Hao Nguyen
+    Author     : admin
 --%>
 
 <%@page import="DAO.roomDAO"%>

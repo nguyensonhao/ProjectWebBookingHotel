@@ -7,7 +7,7 @@ package Model;
 
 /**
  *
- * @author trant
+ * @author admin
  */
 public class Room {
     private int roomId;

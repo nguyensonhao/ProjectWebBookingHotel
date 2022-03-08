@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 /**
  *
- * @author DINH
+ * @author admin
  */
 public class Login {
      public static String Login(String name, String pass) {

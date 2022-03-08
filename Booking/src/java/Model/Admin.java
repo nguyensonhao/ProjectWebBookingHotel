@@ -8,7 +8,7 @@ package Model;
 
 /**
  *
- * @author DINH
+ * @author admin
  */
 public class Admin {
 
