@@ -3,16 +3,42 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/checkOutRoom.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/ordermanage.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/roommanage.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/addnew.html</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/src/java/DAO/OrderDAO.java</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/ordermanagement.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/checkinRoom.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/unActiveRoom.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/web/activeRoom.jsp</file>
-            <file>file:/D:/Code%20thue/tuankiet500k/Booking/src/java/DAO/roomDAO.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/ordermanagement.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/contact.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/blog.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/accomodation.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/ordermanage.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/customermanagement.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/index.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/gallery.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/unActiveRoom.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/roommanage.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Controller/OrderServlet.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Model/Image.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Model/Order.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/addnewroom.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/about.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/login.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/userdonation.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/DAO/AdminDAO.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/activeRoom.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/checkinRoom.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/DAO/OrderDAO.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/DAO/Login.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Model/Admin.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/loginAdmin.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Controller/LoginAdminServlet.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/MyUtils/ConnectionLib.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Controller/addRoomServlet.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Model/Room.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/checkOutRoom.jsp</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/DAO/roomDAO.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/blog-single.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Model/Customer.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/elements.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/src/java/Controller/UserLoginServlet.java</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/donation.html</file>
+            <file>file:/C:/Users/LaptopAZ.vn/ProjectWebBookingHotel/Booking/web/addnew.html</file>
         </group>
     </open-files>
 </project-private>

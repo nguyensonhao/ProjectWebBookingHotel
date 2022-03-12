@@ -1,9 +1,3 @@
-<%-- 
-    Document   : role
-    Created on : Mar 4, 2022, 11:50:38 PM
-    Author     : trant
---%>
-
 <%@page import="java.util.ArrayList"%>
 <%@page import="Model.Customer"%>
 <%@page import="DAO.CustomerDAO"%>

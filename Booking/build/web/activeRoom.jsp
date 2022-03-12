@@ -1,7 +1,5 @@
 <%-- 
-    Document   : activeRoom
-    Created on : Mar 7, 2022, 10:08:28 PM
-    Author     : Hao Nguyen
+  
 --%>
 
 

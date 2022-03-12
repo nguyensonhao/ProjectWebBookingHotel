@@ -1,7 +1,5 @@
 <%-- 
-    Document   : checkOutRoom
-    Created on : Mar 5, 2022, 1:53:30 AM
-    Author     : admin
+    
 --%>
 
 <%@page import="DAO.roomDAO"%>

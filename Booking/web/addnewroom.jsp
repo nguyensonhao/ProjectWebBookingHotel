@@ -1,9 +1,3 @@
-<%-- 
-    Document   : addnewroom
-    Created on : Mar 5, 2022, 1:02:34 AM
-    Author     : trant
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
