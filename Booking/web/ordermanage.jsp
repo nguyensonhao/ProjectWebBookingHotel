@@ -1,3 +1,9 @@
+<%-- 
+    Document   : ordermanage
+    Created on : Mar 5, 2022, 12:38:01 AM
+    Author     : trant
+--%>
+
 <%@page import="Model.Order"%>
 <%@page import="DAO.OrderDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

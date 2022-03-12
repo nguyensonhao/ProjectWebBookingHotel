@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author trant
+ * @author admin
  */
 public class CustomerDAO {
     //declare variables
@@ -68,7 +68,6 @@ public class CustomerDAO {
         }
         return listCustomer;
     }
-   
     public String getName(int customerId) {
         listCustomer = new ArrayList<>();//declare variables
         query = "SELECT `fullName` FROM `customer` where customerId = '"+customerId+"'";//query sql select data

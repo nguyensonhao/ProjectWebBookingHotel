@@ -1,7 +1,7 @@
 <%-- 
-    Document   : login
-    Created on : Mar 3, 2022, 10:24:54 AM
-    Author     : trant
+    Document   : register.jsp
+    Created on : Mar 10, 2022, 11:42:56 PM
+    Author     : haong
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
         <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
         <!-- main css -->
+     <a href="login.jsp"></a>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
@@ -38,7 +39,22 @@
                     </button>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                       
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li> 
+                            <li class="nav-item"><a class="nav-link" href="elements.html">Elemests</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="login.jsp">Login</a></li>
+                        </ul>
                     </div> 
                 </nav>
             </div>
@@ -52,7 +68,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-9">
-                        <form class="row contact_form" action="LoginAdminServlet" method="post" id="contactForm">
+                        <form class="row contact_form" action="RegisterServlet" method="post" id="contactForm">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="username" placeholder="Enter your user name">
@@ -60,8 +76,20 @@
                                 <div class="form-group">
                                     <input type="password" class="form-control" id="email" name="password" placeholder="Enter password">
                                 </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="fullName" placeholder="Enter your full name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="address" placeholder="Enter your address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="email" placeholder="Enter your email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="phone" placeholder="Enter your phone">
+                                </div>
                                 <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn theme_btn button_hover">Login</button>
+                                <button type="submit" value="submit" class="btn theme_btn button_hover">Register</button>
                                 </div>
                             </div>
                         </form>
@@ -70,6 +98,8 @@
             </div>
         </section>
         <!--================Contact Area =================-->
+        
+       
         
         
         <!-- Optional JavaScript -->
@@ -93,3 +123,4 @@
         <!-- contact js -->
     </body>
 </html>
+

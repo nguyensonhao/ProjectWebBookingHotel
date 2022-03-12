@@ -20,7 +20,7 @@ import java.sql.Date;
 
 /**
  *
- * @author admin
+ * @author trant
  */
 public class roomDAO {
     //declare variables
@@ -145,7 +145,7 @@ public class roomDAO {
             return 0;
         }
     }
-      public int updateClockRoom(int idroom, int status){
+          public int updateClockRoom(int idroom, int status){
         query = "UPDATE `room` SET `status` = "+status+" WHERE `room`.`roomId` = "+idroom;//query insert
         try {
             pst = con.prepareStatement(query);

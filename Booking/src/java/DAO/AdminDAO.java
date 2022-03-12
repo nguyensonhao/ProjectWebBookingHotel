@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author admin
+ * @author trant
  */
 public class AdminDAO {
     //declare variables

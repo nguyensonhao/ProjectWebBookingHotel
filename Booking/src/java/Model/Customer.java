@@ -7,7 +7,7 @@ package Model;
 
 /**
  *
- * @author admin
+ * @author DINH
  */
 public class Customer {
 

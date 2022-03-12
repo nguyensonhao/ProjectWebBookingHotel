@@ -36,14 +36,14 @@ public class Login {
         }
         return status;
     }
-     public static boolean Register(String name, String pass) {
+     public boolean Register(String name, String pass) {
         boolean status = false;
         try {
-            DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
+            DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "24120");
 
             PreparedStatement ps = con.prepareStatement(
-                   "INSERT INTO `customeraccount` (`username`, `password`, `customerID`) VALUES ('"+name+"', '"+pass+"', '"+getID()+1+"');");
+                   "INSERT INTO `customeraccount` (`username`, `password`) VALUES ('"+name+"', '"+pass+"');");
              ps.executeUpdate();
             status = true;
 
@@ -52,54 +52,23 @@ public class Login {
         }
         return status;
     }
-     public static int getID(){
-         int Id = 0;
+
+     public boolean InsertInfor(String fullname, String address, String email, int genden, String phone, int status) {
+         status = 1;
+         genden =1;
+        boolean status1 = false;
         try {
-            DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
+            DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/booking", "root", "24120");
 
             PreparedStatement ps = con.prepareStatement(
-                   "SELECT MAX(customerID) FROM customeraccount");
-            ResultSet rs = ps.executeQuery();
-           Id = rs.getInt("MAX(customerID)");
-
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return Id+1;
-     }
-     public static boolean Delete(String ID) {
-        boolean status = false;
-        try {
-            DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
-
-            PreparedStatement ps = con.prepareStatement(
-                    "DELETE FROM `admin` WHERE `admin`.`adminId` = '"+ID+"'");
+                   "INSERT INTO `customer` (`fullName`, `address`,`email`,`gender`,`phone`,`status`) VALUES ('"+fullname+"', '"+address+"','"+email+"',"+genden+",'"+phone+"',"+status+");");
              ps.executeUpdate();
-            status = true;
+            status1 = true;
 
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
-        return status;
-    }
-     public static boolean LoginAdmin(String name, String pass) {
-        boolean status = false;
-        try {
-            DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-            Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/group1asm", "root", "");
-
-            PreparedStatement ps = con.prepareStatement(
-                    "select * from admin where username=? and password=?");
-            ps.setString(1, name);
-            ps.setString(2, pass);
-
-            ResultSet rs = ps.executeQuery();
-            status = rs.next();
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-        return status;
+        return status1;
     }
 }

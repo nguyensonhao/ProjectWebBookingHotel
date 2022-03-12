@@ -1,7 +1,7 @@
 <%-- 
     Document   : useraccount
     Created on : Mar 4, 2022, 11:31:15 PM
-    Author     : admin
+    Author     : trant
 --%>
 
 <%@page import="java.util.ArrayList"%>
@@ -81,7 +81,6 @@ ArrayList<Room> list = room.loadProduct();
                                             <th>Image</th>
                                             <th>Price</th>
                                             <th>Status</th>
-                                            <th>Action</th>
                                         </thead>
                                         <tbody>
                                             <%
@@ -95,20 +94,18 @@ ArrayList<Room> list = room.loadProduct();
                                                 <td><img src="image/<%=room.getImage(list.get(i).getRoomId())%>.jpg" alt="" height="100px" width="100px"></td>
                                                 <td><%=list.get(i).getPrice()%></td>
                                                 <td><%=status%></td>
-
-                                           
-                                            <%
+                                                                  <%
                                                 if(list.get(i).getStatus() == 2){
                                                     
                                                     %>
-                                        <td><button type="submit" class="btn btn-info btn-fill pull-right"><a href="activeRoom.jsp?roomID=<%=list.get(i).getRoomId()%>" style="color: white">Checked In</a></button></td>
+                                        <td><button type="submit" class="btn btn-info btn-fill pull-right"><a href="activeRoom.jsp?roomID=<%=list.get(i).getRoomId()%>" style="color: white">Block room</a></button></td>
                                                 <%}else if(list.get(i).getStatus() == 1){
 
                                                     %>
-                                    <td><button type="submit" class="btn btn-info btn-fill pull-right"><a href="unActiveRoom.jsp?roomID=<%=list.get(i).getRoomId()%>" style="color: white">Checked Out</a></button></td>
+                                    <td><button type="submit" class="btn btn-info btn-fill pull-right"><a href="unActiveRoom.jsp?roomID=<%=list.get(i).getRoomId()%>" style="color: white">Block room</a></button></td>
                                                 <%}%>
-                                     </tr>
-                                    <%
+                                            </tr>
+                                            <%
                                                }
                                             %>
                                         </tbody>

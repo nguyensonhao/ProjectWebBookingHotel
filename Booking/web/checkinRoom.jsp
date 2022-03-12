@@ -1,3 +1,9 @@
+<%-- 
+    Document   : checkinRoom
+    Created on : Mar 5, 2022, 1:49:41 AM
+    Author     : trant
+--%>
+
 <%@page import="DAO.roomDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
